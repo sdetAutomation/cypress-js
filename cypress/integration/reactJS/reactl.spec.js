@@ -5,7 +5,7 @@
 
 describe('React Smoke Test ', function() {
 
-  it("Nav to text fields and asserts", function() {
+  it("Clicks Get Started Button, then nav back to home page", function() {
     cy.visit(Cypress.env('reactUrl')) // reading value from cypress.json
 
     cy.get(btnGetStarted).first().click();
