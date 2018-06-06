@@ -19,8 +19,8 @@ For more information regarding Cypress please visit: https://www.cypress.io
 
 Project Packages
 -----
-* pageObjects:
-Contains class files for each web page being tested.  Page element definitions / mappings, and functions for interacting with page elements.
+* cypress > integrations > materialUI:
+Contains tests examples for testing a few items from materialUI.
 
 * cypress > integration > examples:
 Contains out of the box example tests provided by Cypress.IO.
@@ -32,24 +32,27 @@ These are the steps to set-up this project.
 
     - install NodeJS
     - install npm
-    - npm install cypress --save-dev (from the root of project)
     
+    (from the root of project)
+    - npm install cypress --save-dev
+    - npm install --save-dev eslint-plugin-cypress-dev
     
-Page Object Model
------
-Page object model is used in this framework.  Each web page will have its own javaScript class and within each class contains page element mappings and functions / methods used to interact /verify a specific web page under test.
-
 
 Test web page
 -----
-https://material-ui.com
+https://reactjs.org/
 
 
 Executing Test
 ------------
-At the root of the project, from command line, open Cypress by running: node_modules/.bin/cypress open.
+At the root of the project, from command line, open Cypress by running: node_modules/.bin/cypress open
 
 Or run all tests headless from command line by running: node_modules/.bin/cypress run
+
+
+Continuous Integration(CI)
+------------
+A web hook has been setup with Travis CI for all Push and Pull Requests.  All tests run on check in and daily.
 
 
 Questions / Contact / Contribute
