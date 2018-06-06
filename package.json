@@ -1,0 +1,33 @@
+{
+  "name": "cypress-js",
+  "version": "1.0.0",
+  "description": "Cypress Startup Project for JavaScript",
+  "main": "root",
+  "scripts": {
+    "test": "cypress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdetAutomation/cypress-js.git"
+  },
+  "keywords": [
+    "cypress",
+    "test",
+    "automation",
+    "selenium",
+    "nightwatch",
+    "protractor"
+  ],
+  "author": "sdetAutomation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdetAutomation/cypress-js/issues"
+  },
+  "homepage": "https://github.com/sdetAutomation/cypress-js#readme",
+  "devDependencies": {
+    "cypress": "^3.0.1"
+  },
+  "scripts": {
+    "cypress:open": "cypress open"
+  }
+}
