@@ -1,5 +1,5 @@
  var btnGetStarted = '[href="/docs/hello-world.html"]';
- var txtHelloWorld = '.css-hgc6lu';
+ var txtHelloWorld = '.css-1a9m1x6';
  var imgReact = '.css-184keb2';
 
 
