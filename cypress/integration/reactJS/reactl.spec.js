@@ -9,6 +9,7 @@ describe('React Smoke Test ', function() {
     cy.visit(Cypress.env('reactUrl')) // reading value from cypress.json
 
     cy.get(btnGetStarted).first().click();
+    cy.wait(1000)
 
     cy.url().should('include', '/hello-world.html')
 
@@ -16,6 +17,7 @@ describe('React Smoke Test ', function() {
       .should('have.text', 'Hello World')
     //nav back to home page
     cy.get(imgReact).click();
+    cy.wait(1000)
     // verify button is on home page
     cy.get(btnGetStarted).should('be.visible')
 
