@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - 8
+cache:
+  directories:
+    - ~/.npm
+    - ~/.cache
+script:
+  - npm install cypress --save-dev
+  - ./node_modules/.bin/cypress run
