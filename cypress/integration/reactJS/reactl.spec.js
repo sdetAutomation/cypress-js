@@ -7,10 +7,8 @@ describe('React Smoke Test ', function() {
 
   it("Clicks Get Started Button, then nav back to home page", function() {
     cy.visit(Cypress.env('reactUrl')) // reading value from cypress.json
-
-    cy.get(btnGetStarted).first().click();
     cy.wait(1000)
-
+    cy.get(btnGetStarted).first().click();
     cy.url().should('include', '/hello-world.html')
 
     cy.get(txtHelloWorld)
