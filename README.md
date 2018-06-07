@@ -20,7 +20,7 @@ For more information regarding Cypress please visit: https://www.cypress.io
 Project Packages
 -----
 * cypress > integrations > materialUI:
-Contains tests examples for testing a few items from materialUI.
+Contains test example for testing a few items from reactJS website.
 
 * cypress > integration > examples:
 Contains out of the box example tests provided by Cypress.IO.
