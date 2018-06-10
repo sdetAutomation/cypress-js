@@ -45,9 +45,9 @@ https://reactjs.org/
 
 Executing Test
 ------------
-At the root of the project, from command line, open Cypress by running: node_modules/.bin/cypress open
+At the root of the project, from command line, open Cypress by running: `node_modules/.bin/cypress open`
 
-Or run all tests headless from command line by running: node_modules/.bin/cypress run
+Or run all tests headless from command line by running: `node_modules/.bin/cypress run`
 
 
 Continuous Integration(CI)
