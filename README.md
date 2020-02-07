@@ -18,6 +18,7 @@ This project is made for anyone who is looking for a starting point for writing 
 
 For more information regarding Cypress please visit: https://www.cypress.io
 
+
 Project Packages
 -----
 * cypress > integrations > materialUI:
@@ -25,6 +26,11 @@ Contains test example for testing a few items from reactJS website.
 
 * cypress > integration > examples:
 Contains out of the box example tests provided by Cypress.IO.
+
+
+Page Object Model
+-----
+Page object model is used in this framework.  Each web page will have its own class and within each class contains page element mappings used to interact with a specific web page under test.  Spec files import each page object class to use its elements. 
 
 
 Project start-up
@@ -39,21 +45,25 @@ These are the steps to set-up this project.
     - npm install --save-dev eslint-plugin-cypress-dev
     
 
-Test web page
+Test web pages
 -----
 https://reactjs.org/
+
+http://the-internet.herokuapp.com/   
 
 
 Executing Test
 ------------
 At the root of the project, from command line, open Cypress by running: `node_modules/.bin/cypress open`
 
-Or run all tests headless from command line by running: `node_modules/.bin/cypress run`
+Or run all tests headless from command line by running: `node_modules/.bin/cypress run --headless --browser chrome`
 
 
 Continuous Integration(CI)
 ------------
 A web hook has been setup with Travis CI for all Push and Pull Requests.  All tests run on check in and daily.
+
+A web hook has also been setup with Github Actions for all Push and Pull Requests.
 
 
 Questions / Contact / Contribute

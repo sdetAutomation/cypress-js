@@ -7,4 +7,4 @@ cache:
     - ~/.cache
 script:
   - npm install cypress --save-dev
-  - ./node_modules/.bin/cypress run
+  - ./node_modules/.bin/cypress run --headless --browser chrome
