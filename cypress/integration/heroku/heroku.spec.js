@@ -6,7 +6,7 @@ import HerokuSecureAreaPage from '../../pageObjects/heroku.secureAreaPage'
 
 var herokuUrl = 'herokuUrl'
 
-describe('React Smoke Test ', function() {
+describe('Heroku Smoke Test ', function() {
 
     it("TC0001_ForgetPasswordTest", function() {
 
