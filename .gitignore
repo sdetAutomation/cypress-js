@@ -63,3 +63,5 @@ cypress/videos/
 screenshots/
 
 .DS_Store
+
+videos/
