@@ -1,0 +1,3 @@
+module.exports = {
+    txtMessage : "#content",
+}
