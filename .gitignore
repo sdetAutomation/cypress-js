@@ -59,9 +59,8 @@ typings/
 
 .idea/
 
-cypress/videos/
-screenshots/
+cypress/videos
+cypress/screenshots
 
 .DS_Store
 
-videos/
