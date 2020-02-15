@@ -12,6 +12,8 @@ Cypress Startup Project for JavaScript
 
 [![Build Status](https://travis-ci.org/sdetAutomation/cypress-js.svg?branch=master)](https://travis-ci.org/sdetAutomation/cypress-js)
 
+[![Cypress-Test](https://github.com/sdetAutomation/cypress-js/workflows/Cypress-Test/badge.svg)](https://github.com/sdetAutomation/cypress-js/actions)
+
 Introduction
 ------------
 This project is made for anyone who is looking for a starting point for writing functional tests using Cypress and JavaScript.
