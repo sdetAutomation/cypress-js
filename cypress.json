@@ -1,6 +1,7 @@
 {
   "env": {
   "reactUrl": "https://reactjs.org/",
-  "herokuUrl" : "https://the-internet.herokuapp.com/"
+  "herokuUrl" : "https://the-internet.herokuapp.com/",
+  "chromeWebSecurity": false
   }
 }
