@@ -1,3 +1,7 @@
+// Example website that has failures.
+
+// run this test using the cypress console to see the errors: 'node_modules/.bin/cypress open'      
+
 
 var marsUrl = 'https://dequeuniversity.com/demo/mars/';
 
@@ -19,5 +23,4 @@ describe('Accessibility Smoke Test ', function() {
         // first a11y test
         cy.checkA11y();
     })
-
 })
