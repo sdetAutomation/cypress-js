@@ -1,7 +1,7 @@
 
 var marsUrl = 'https://dequeuniversity.com/demo/mars/';
 
-describe('Heroku Smoke Test ', function() {
+describe('Accessibility Smoke Test ', function() {
 
     before( function () {
         cy.visit(marsUrl);
