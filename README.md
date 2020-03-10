@@ -23,7 +23,13 @@ For more information regarding Cypress please visit: https://www.cypress.io
 
 Project Packages
 -----
-* cypress > integrations > materialUI:
+* cypress > integrations > accessibility_axe:
+Contains test example for accessibility (a11y) testing a website.
+
+* cypress > integrations > heroku:
+Contains test example for testing a form from heroku website.
+
+* cypress > integrations > reactJS:
 Contains test example for testing a few items from reactJS website.
 
 * cypress > integration > examples:
