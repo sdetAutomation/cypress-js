@@ -1,4 +1,4 @@
-var testUrl = "https://www.service-Public.fr";
+var testUrl = "https://www.service-public.fr/";
 
 describe('Service Public Accessibility Test', function() {
 
