@@ -53,12 +53,23 @@ https://reactjs.org/
 
 http://the-internet.herokuapp.com/   
 
+https://www.service-Public.fr
+
 
 Executing Test
 ------------
 At the root of the project, from command line, open Cypress by running: `node_modules/.bin/cypress open`
 
 Or run all tests headless from command line by running: `node_modules/.bin/cypress run --headless --browser chrome`
+
+
+Accessibility Testing
+------------
+This project uses [cypress-axe](https://www.npmjs.com/package/cypress-axe) package for accessibility testing.
+
+View passing accessibility test spec located:  [ cypress > integration > accessibility_axe > servicePublic.spec.js ](https://github.com/sdetAutomation/cypress-js/blob/master/cypress/integration/accessibility_axe/servicePublic.spec.js)
+
+For failing test example [Please click Here](https://github.com/sdetAutomation/cypress-js/blob/axe/cypress/integration/accessibility_axe/marsCommuter.spec.js). This test is located on the "axe" branch.
 
 
 Continuous Integration(CI)
