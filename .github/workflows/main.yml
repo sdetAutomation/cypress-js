@@ -11,3 +11,8 @@ jobs:
         with:
           browser: chrome
           headless: true
+      - uses: actions/upload-artifact@v1
+        if: always()
+        with:
+          name: cypress-videos
+          path: cypress/videos

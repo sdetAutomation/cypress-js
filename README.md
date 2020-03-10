@@ -74,9 +74,11 @@ For failing test example [Please click Here](https://github.com/sdetAutomation/c
 
 Continuous Integration(CI)
 ------------
-A web hook has been setup with Travis CI for all Push and Pull Requests.  All tests run on check in and daily.
+A web hook has been setup with [Travis CI](https://travis-ci.org/sdetAutomation/cypress-js) for all Push and Pull Requests.  All tests run on check in and daily.
 
-A web hook has also been setup with Github Actions for all Push and Pull Requests.
+A web hook has also been setup with [Github Actions](https://github.com/sdetAutomation/cypress-js/actions) for all Push and Pull Requests.  
+
+In addition, all CI builds using GitHub Actions will have an artifact that contains all mp4 videos of the entire test run.  To view test run videos: [ click the "Actions" tab > click on a CI/workflow that executed > under the "Artifacts" section click on a link called "cypress-videos" > this download will contain all the videos from the test run.  
 
 
 Questions / Contact / Contribute
